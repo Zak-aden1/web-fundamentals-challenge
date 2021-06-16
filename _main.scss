@@ -1,0 +1,41 @@
+@import "./variable";
+
+section {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    .box-1 {
+        // border: 2px solid red;
+        width: 50%;
+        flex: 2;
+        text-align: center;
+
+        h2 {
+            font-size: 40px;
+            text-align: center;
+        }
+        p {
+            text-align: center;
+            margin: 10px 10px;
+            font-size: 20px;
+        }
+        a {
+            text-align: center;
+        }
+        button {
+            padding: 9px 25px;
+            border: 2px solid red;
+            border-radius: 10px;
+            color: black;
+            background-color: white;
+        }
+    }
+
+    .box-2 {
+        // border: 2px solid red;
+        width: 50%;
+    }
+}

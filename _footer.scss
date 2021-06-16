@@ -1,25 +1,11 @@
-@import "./main";
 @import "./variable";
-@import "./footer";
 
-header {
+footer {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     padding: 30px 10%;
     border: 2px solid red;
-
-    a {
-        margin-left: auto;
-    }
-
-    .header__h6 {
-        font-size: 20px;
-        color: purple;
-    }
-    
-    .header__ul {
-    list-style-type: none;
 
     li {
         display: inline-block;
@@ -27,16 +13,11 @@ header {
 
         a {
             font-weight: 500;
-            font-size: 16px;
+            font-size: 20px;
             text-decoration: none;
         }
     }
+    h6 {
+        color: grey;
+    }
 }
-
-button {
-    @include button;
-}
-}
-
-
-
